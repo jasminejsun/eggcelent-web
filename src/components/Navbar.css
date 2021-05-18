@@ -14,6 +14,7 @@
 }
 
 .navbar {
+  background:#9FD1FF;
   height: 80px;
   display: flex;
   justify-content: center;

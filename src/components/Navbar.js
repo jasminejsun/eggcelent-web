@@ -9,10 +9,11 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
     return (
         <>
-            <nav className="navbar">
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
-                        <span className="logo-font">
+            <nav className='navbar'>
+                <div className='navbar-container'>
+                    <Link to='/' className='navbar-logo'>
+                        <span className='logo-font' onClick= 
+                        {closeMobileMenu}>
                         eggcelent
                         </span>
                     </Link>
@@ -22,7 +23,7 @@ function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                <span className="header-font">
+                                <span className='header-font'>
                                     Home
                                 </span>
                             </Link>
