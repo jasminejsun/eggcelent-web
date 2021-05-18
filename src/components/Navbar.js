@@ -24,14 +24,14 @@ function Navbar() {
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 <span className='header-font'>
-                                    Home
+                                    home
                                 </span>
                             </Link>
                             </li>
                             <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                                 <span className="header-font">
-                                    About
+                                    about
                                 </span>
                             </Link>
                         </li>
