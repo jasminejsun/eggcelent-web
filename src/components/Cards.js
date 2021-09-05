@@ -12,21 +12,22 @@ function Cards() {
               <CardItem
                 src='images/boiled_main.png'
                 text='boiled egg'
+                path='/boiled'
               />
               <CardItem
                 src='images/poached_main.png'
                 text='poached egg'
-                path='/services'
+                path='/poached'
               />
               <CardItem
                 src='images/scrambled_main.png'
                 text='scrambled egg'
-                path='/services'
+                path='/scrambled'
               />
               <CardItem
                 src='images/sunny_side_up_main.png'
                 text='sunny-side-up egg'
-                path='/products'
+                path='/sunny-side-up'
               />
             </ul>
           </div>
