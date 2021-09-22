@@ -12,7 +12,7 @@ function CardsBoiled() {
               <CardItem
                 src='images/soft_boiled.png'
                 text='soft boiled egg'
-                path='/soft-boiled'
+                path='/timer'
               />
               <CardItem
                 src='images/boiled_jammy.png'

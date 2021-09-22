@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Boiled from './components/pages/Boiled';
 import Poached from './components/pages/Poached';
 import Sunny from './components/pages/Sunny';
+import Timer from './components/pages/Timer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/boiled' component={Boiled} />
       <Route path='/poached' component={Poached} />
       <Route path='/sunny-side-up' component={Sunny} />
+      <Route path='/timer' component={Timer} />
     </Switch>
     </Router>
     </>

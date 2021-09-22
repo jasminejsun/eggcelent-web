@@ -1,0 +1,49 @@
+.Timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: #FCFCCF;
+    width: 100vw;
+  }
+  
+  .time {
+    font-family: Gaegu;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(170, 102, 0);
+  }
+
+  .time-container {
+    margin-top:2rem;
+  }
+
+  .remaining-time {
+    font-family: Gaegu;
+    font-weight: 700;
+    font-size: 30px;     
+    color: rgb(170, 102, 0);
+  }
+
+  .start {
+    background-color: #D4B445;
+    border: none;
+    border-radius: 15px;
+    outline:none;
+    padding: 25px 37px 17px 42px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    color: white;
+  }
+
+  .start:hover {
+      cursor: pointer;
+  }
+  
