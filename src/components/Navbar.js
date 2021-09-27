@@ -29,9 +29,9 @@ function Navbar() {
                             </Link>
                             </li>
                             <li className='nav-item'>
-                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/puns' className='nav-links' onClick={closeMobileMenu}>
                                 <span className="header-font">
-                                    about
+                                    puns
                                 </span>
                             </Link>
                         </li>

@@ -12,22 +12,22 @@ function CardsPoached() {
               <CardItem
                 src='images/poached_runny.png'
                 text='runny poached egg'
-                path='/boiled'
+                path='/runny-poached'
               />
               <CardItem
                 src='images/poached_main.png'
                 text='jammy poached egg'
-                path='/poached'
+                path='/jammy-poached'
               />
               <CardItem
                 src='images/poached_medium_firm.png'
                 text='medium poached egg'
-                path='/scrambled'
+                path='/medium-poached'
               />
               <CardItem
                 src='images/poached_firm.png'
                 text='hard poached egg'
-                path='/sunny-side-up'
+                path='/hard-poached'
               />
             </ul>
           </div>
