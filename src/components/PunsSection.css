@@ -1,0 +1,106 @@
+  h1 {
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    color: rgb(170, 102, 0);
+  }
+  img {
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 180px;
+    object-fit:contain;
+    transition: all 0.2s linear;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  
+  .pun-container {
+    display: flex;
+    background: #FCFCCF;
+    width: 100vw;
+    background: #FCFCCF;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .pun-wrapper {
+    position: relative;
+    margin: 50px 0 50px;
+  }
+  
+  .button {
+      background-color: #D4B445;
+      border: none;
+      padding: 30px;
+      font-size: 35px;
+      font-family: 'Gaegu', cursive;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      margin: 1rem;
+      width: 50rem;
+      height: fit-content;
+      border-radius: 40px;
+  }
+
+  .button:hover {
+      cursor: pointer;
+  }
+
+  .modal {
+    font-size: 30px;
+    background-color: white;
+  }
+  .modal > .header {
+    width: 100%;
+    border: 5px solid rgb(170, 102, 0);
+    color: rgb(170, 102, 0);
+    font-family: 'Gaegu', cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 200px;
+  }
+
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 10px;
+    line-height: 30px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    color: rgb(170, 102, 0);
+    border: 2px solid rgb(170, 102, 0);
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    h1 {
+        font-size: 20px;
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+      width: 80%;
+      font-size: 25px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    img {
+        display: none;
+    }
+  }
