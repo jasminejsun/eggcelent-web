@@ -8,7 +8,7 @@ function PunsSection() {
         <div className='pun-wrapper'>
             <h1>feeling punny? click on the yolks below..</h1>
                 <Popup
-                    trigger={<button className="button"><img src={"images/boiled_main.png"} /> why do people love having hard-boiled eggs for breakfast? </button>}
+                    trigger={<button className="button"><img class="img-puns" src={"images/egg_joke_1.png"} /> why do people love having hard-boiled eggs for breakfast? </button>}
                     modal
                     nested
                 >
@@ -22,7 +22,8 @@ function PunsSection() {
                     )}
                 </Popup>
                 <Popup
-                    trigger={<button className="button"><img src={"images/boiled_main.png"} /> why do people love having hard-boiled eggs for breakfast? </button>}
+                    trigger={<button className="button"><img class="img-puns" src={"images/egg_pun_3.png"} /> what did the egg do when it saw the frying pan?
+                    </button>}
                     modal
                     nested
                 >
@@ -31,12 +32,12 @@ function PunsSection() {
                         <button className="close" onClick={close}>
                         &times;
                         </button>
-                        <div className="header"> they're so hard to beat! </div>
+                        <div className="header"> it scrambled! </div>
                     </div>
                     )}
                 </Popup>
                 <Popup
-                    trigger={<button className="button"><img src={"images/boiled_main.png"} /> why do people love having hard-boiled eggs for breakfast? </button>}
+                    trigger={<button className="button"><img class="img-puns" src={"images/egg_joke_2.png"} /> what did the egg say about escaping the chef? </button>}
                     modal
                     nested
                 >
@@ -45,12 +46,12 @@ function PunsSection() {
                         <button className="close" onClick={close}>
                         &times;
                         </button>
-                        <div className="header"> they're so hard to beat! </div>
+                        <div className="header"> i might whisk it and run! </div>
                     </div>
                     )}
                 </Popup>
                 <Popup
-                    trigger={<button className="button"><img src={"images/boiled_main.png"} /> why do people love having hard-boiled eggs for breakfast? </button>}
+                    trigger={<button className="button"><img class="img-puns" src={"images/egg_pun_4.png"} /> how did the breakfast burrito find out it was sick? </button>}
                     modal
                     nested
                 >
@@ -59,7 +60,7 @@ function PunsSection() {
                         <button className="close" onClick={close}>
                         &times;
                         </button>
-                        <div className="header"> they're so hard to beat! </div>
+                        <div className="header"> it had an eggs-amination! </div>
                     </div>
                     )}
                 </Popup>
